@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.alert-container{}
+
+
+
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.opaque-overlay {
+    position: absolute;
+    margin-top: 4%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);}
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:red
+
+}
+
+/*jumbotron */
+.jumbotron{ background-color: transparent}
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;}
+.jumbotron .lead{
+        margin: 25px;
+        color: #a7a7a7;
+}
+.jumbotron-small{
+    font-size: 60%;
+    font-style: italic;
+    color: white
+}
+.qoute-container{}
+
+.feature-container{}
+
