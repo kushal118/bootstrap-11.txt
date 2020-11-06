@@ -9,7 +9,7 @@ body{
 .callout-container {
     height: 100vh;
 
-    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,7 +25,7 @@ body{
     position: absolute;
     margin-top: 4%;
     left: 0;
-    height: 100%;
+    height: 94vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);}
 
@@ -58,3 +58,19 @@ body{
 
 .feature-container{}
 
+/*buttons*/
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn--red{
+    color: white;
+    background-color: red;
+    border-color: red
+}
+.btn--red:hover{
+    background-color: #c30d0d;
+    color: #f5f5f5;
+    border-color: #C30D0D;
+}
