@@ -34,9 +34,9 @@ body{
 }
 .opaque-overlay {
     position: absolute;
-    margin-top: 4%;
+    top: 0;
     left: 0;
-    height: 94vh;
+    height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);}
 
@@ -48,6 +48,13 @@ body{
     border: 0;
     background-color:red
 
+}
+.block-divider-short{
+    background-color: #424950;
+    width: 35px;
+}
+.block-divider-white{
+    background-color: white;
 }
 /*Navbar styling*/
 .navalert-container{
@@ -83,7 +90,7 @@ body{
         margin: 25px;
         color: #a7a7a7;
 }
-.jumbotron-small{
+.jumbotron small{
     font-size: 60%;
     font-style: italic;
     color: white
@@ -91,7 +98,29 @@ body{
 .qoute-container{}
 
 .feature-container{}
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature i{
+    margin-bottom: 20px;
+    font-size:45px;
+    line-height: 45px;
+}
+/*Page header*/
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
 
+}
+.page-header h2{
+    margin-top: 0;
+
+}
+.quotes .page-header{
+    margin-bottom: 25px;
+}
 /*buttons*/
 .btn--cta {
     font-weight: bold;
@@ -112,4 +141,23 @@ body{
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+.container-wrapper{}
+.container-wrapper-red{
+    background-color: #f05f40;
+    color: white;
+}
+/*content-container*/
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
